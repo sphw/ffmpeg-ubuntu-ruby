@@ -32,7 +32,7 @@ script: |
   ./configure --disable-shared 
   make 
   sudo make install
-  apt-get install libmp3lame-dev
+  sudo apt-get install libmp3lame-dev
   wget http://downloads.xiph.org/releases/opus/opus-1.0.3.tar.gz 
   tar xzvf opus-1.0.3.tar.gz 
   cd opus-1.0.3 
