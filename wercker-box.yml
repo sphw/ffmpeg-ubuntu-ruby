@@ -46,6 +46,6 @@ script: |
   sudo make install
   git clone --depth 1 git://source.ffmpeg.org/ffmpeg 
   cd ffmpeg 
-  ./configure --extra-libs="-ldl" --enable-gpl --enable-libass --enable-libfdk-aac--enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx--enable-libx264 --enable-nonfree 
+  ./configure --extra-libs="-ldl" --enable-gpl --enable-libass --enable-libfdk-aac --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-nonfree 
   make 
   sudo make install
